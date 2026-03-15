@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Monetag Earnings</title>
+
+<!-- Tailwind CSS CDN -->
+<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+
+@keyframes gradientMove {
+0% {background-position:0% 50%;}
+50% {background-position:100% 50%;}
+100% {background-position:0% 50%;}
+}
+
+@keyframes float {
+0% {transform: translateY(0px);}
+50% {transform: translateY(-20px);}
+100% {transform: translateY(0px);}
+}
+
+.gradient-bg{
+background: linear-gradient(-45deg,#6366f1,#06b6d4,#9333ea,#2563eb);
+background-size: 400% 400%;
+animation: gradientMove 12s ease infinite;
+}
+
+.float{
+animation: float 4s ease-in-out infinite;
+}
+
+</style>
+
+</head>
+
+<body class="gradient-bg min-h-screen text-white flex items-center justify-center">
+
+<!-- HERO SECTION -->
+<section class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
+
+<!-- Left Content -->
+<div>
+
+<h1 class="text-5xl md:text-6xl font-extrabold leading-tight mb-6">
+Earn Money With  
+<span class="text-cyan-300">Monetag Ads</span>
+</h1>
+
+<p class="text-lg text-gray-200 mb-8">
+Turn your website traffic into real income.  
+Start monetizing instantly with high-paying ad formats.
+</p>
+
+<div class="flex gap-4">
+
+<button class="bg-cyan-400 text-black px-7 py-3 rounded-xl font-semibold hover:scale-110 transition duration-300">
+Start Earning
+</button>
+
+<button class="border border-white px-7 py-3 rounded-xl hover:bg-white hover:text-black transition">
+Learn More
+</button>
+
+</div>
+
+</div>
+
+
+<!-- Right Hero Image -->
+<div class="flex justify-center">
+
+<img 
+src="https://cdn-icons-png.flaticon.com/512/3135/3135706.png"
+class="w-80 float"
+>
+
+</div>
+
+</section>
+
+</body>
+</html>
+
